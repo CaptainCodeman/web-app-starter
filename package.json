@@ -1,0 +1,26 @@
+{
+  "name": "web-app-starter",
+  "version": "1.0.0",
+  "description": "Web App Starter using WebComponents, Lit-Html, Redux, Typescript and Rollup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptainCodeman/web-app-starter.git"
+  },
+  "keywords": [
+    "web-components",
+    "lit-html",
+    "redux",
+    "typescript",
+    "rollup"
+  ],
+  "author": "simon@captaincodeman.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaptainCodeman/web-app-starter/issues"
+  },
+  "homepage": "https://github.com/CaptainCodeman/web-app-starter#readme"
+}
