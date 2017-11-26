@@ -1,6 +1,8 @@
 import './polyfill';
+import app from './app-shell';
 
 function bootstrap() {
+  app()
 }
 
 declare global {

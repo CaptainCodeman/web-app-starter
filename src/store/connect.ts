@@ -1,9 +1,9 @@
 import { Unsubscribe } from 'redux';
-import store from './';
+import store, { RootState } from './';
 
 export interface Connectable {
-  mapStateToProps<S>(state : S) : any
-  shouldUpdateProps?<S>(state : S) : boolean
+  mapStateToProps(state : RootState) : any
+  shouldUpdateProps?(state : RootState) : boolean
 }
 
 type Constructor<T> = new(...args: any[]) => T;
@@ -21,11 +21,11 @@ export function connect<T extends Constructor<Connectable>>(superclass: T) {
       this.unsubscribe()
     }
 
-    shouldUpdateProps<S>(state : S) : boolean {
+    shouldUpdateProps(state : RootState) : boolean {
       return true
     }
   
-    connect<S>(state : S) {
+    connect(state : RootState) {
       if (this.shouldUpdateProps(state)) {
         this.setProperties(this.mapStateToProps(state))
       }
