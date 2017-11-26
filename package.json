@@ -4,6 +4,8 @@
   "description": "Web App Starter using WebComponents, Lit-Html, Redux, Typescript and Rollup",
   "main": "index.js",
   "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

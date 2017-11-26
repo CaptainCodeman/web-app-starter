@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "rootDir": "src",
+    "module": "es2015",
+    "target": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  }
+}
