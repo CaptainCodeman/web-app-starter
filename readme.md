@@ -32,6 +32,8 @@ by configuring it in .firebaserc
 
     firebase serve --project project-id
 
+View the app by going to http://localhost:5000
+
 ## Credits
 
 App Drawer animation based on
