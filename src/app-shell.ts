@@ -197,6 +197,8 @@ path {
   <div id="drawer">
     <ul>
       <li><a href="/">Home</a></li>
+      <li><a href="/foo">Foo</a></li>
+      <li><a href="/foo/bar">Foo Bar</a></li>
     </ul>
   </div>
 </div>
@@ -208,7 +210,7 @@ path {
     <h1>My App</h1>
   </div>
   <div id="body">
-    <p>This is some content</p>
+    <app-router></app-router>
     <p>
       <button on-click="${this.signIn}">Sign In</button>
       <button on-click="${this.signOut}">Sign Out</button>

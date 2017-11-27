@@ -1,8 +1,10 @@
 import './polyfill';
 import app from './app-shell';
+import router from './app-router';
 
 function bootstrap() {
   app()
+  router()
 }
 
 declare global {
