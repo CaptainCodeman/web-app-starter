@@ -27,12 +27,12 @@ Build output is in `/public` folder
 
 ## Running
 
-Start the app using the firebase server, passing the project ID or
-by configuring it in .firebaserc
+Start the app using the firebase server, passing the firebase project ID (or
+by configuring it in .firebaserc)
 
-    firebase serve --project project-id
+    firebase serve --project firebase-project-id
 
-View the app by going to http://localhost:5000
+View the running app by going to http://localhost:5000
 
 ## Credits
 
