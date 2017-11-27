@@ -2,8 +2,13 @@
 
 A skeleton application showing a "modern" web app project based
 on Web-Components enhanced with Lit-Html for template rendering
-and using Redux for state storage. All developed with Typescript
-and built using Rollup.
+and using Redux for state with Universal Router for routing and
+Firebase Firestore for storage. All developed in Typescript and
+built using Rollup.
+
+App JS size: 14Kb (not including Firebase Libraries)
+
+See [demo](https://web-app-starter.firebaseapp.com/)
 
 ## Dependecies
 

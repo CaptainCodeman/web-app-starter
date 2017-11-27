@@ -1,5 +1,5 @@
 {
   "projects": {
-    "default": "firebase-project"
+    "default": "web-app-starter"
   }
 }
